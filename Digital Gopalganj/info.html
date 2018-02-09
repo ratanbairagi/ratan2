@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html"> 
+    
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/fb.ico" type="image/x-icon" />
+        <title>Welcome To Digital Gopalganj</title>
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-Frame-Options" content="deny">
+                <meta name="description" content="">
+        <!-- =============== tt canonical start =============================== -->
+                <link rel="canonical" href="index.html">
+        <!-- =============== tt canonical End =============================== -->
+
+                <link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/stylesheets/base.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/stylesheets/skeleton.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/stylesheets/style.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/stylesheets/meganizr.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/stylesheets/demo.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="npfadmin/public/css/flaticon/flaticon.css" />
+				<link type="text/css" rel="stylesheet" media="all" href="themes/responsive_npf/templates/ministry/style.css" />
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>-->
+        <script type="text/javascript" src="../code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+        <script>
+            //jq160 = jQuery.noConflict( true );
+        </script>
+        <link rel="stylesheet" href="themes/responsive_npf/stylesheets/responsiveslides.css">
+        <link rel="stylesheet" href="themes/responsive_npf/templates/ministry/responsive.css">
+        <link rel="stylesheet" href="themes/responsive_npf/stylesheets/district.css">        
+		<script src="themes/responsive_npf/js/responsiveslides.min.js"></script>
+        <script src="themes/responsive_npf/js/jquery.vticker.js" type="text/javascript"></script>
+
+        <script src="themes/responsive_npf/js/domain_selector.js" type="text/javascript"></script>
+        <script src="themes/responsive_npf/js/utils.js" type="text/javascript"></script>
+        <script type="text/javascript" src="themes/responsive_npf/js/yoxview/yoxview-init.js"></script>
+        
+        <script>
+        
+        function setLanguageCookie(cookieValue) {
+            var today = new Date();
+            var expire = new Date();
+            var cookieName = 'lang';
+            //var cookieValue = "bn";
+            var nDays = 5;
+            expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+            document.cookie = cookieName + "=" + escape(cookieValue)
+                    + ";expires=" + expire.toGMTString();
+        }
+
+        function setLanguage() {
+            $("#lang_form").submit();
+            return false;
+        }
+        $(function () {
+            // Slideshow 4
+            $("#front-image-slider").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 2000,
+                maxwidth: 960,
+                maxHeight: 230,
+                namespace: "callbacks"
+            });
+            $("#right-content a").click(function () {
+                var url = $(this).attr('href');
+                if (isExternal(url) && url != 'javascript:;') {
+                    openInNewTab(url);
+                    return false;
+                }
+            });
+        });
+        function openInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+        function isExternal(url) {
+            var match = url.match(/^([^:\/?#]+:)?(?:\/\/([^\/?#]*))?([^?#]+)?(\?[^#]*)?(#.*)?/);
+            if (typeof match[1] === "string" && match[1].length > 0 && match[1].toLowerCase() !== location.protocol)
+                return true;
+            if (typeof match[2] === "string" && match[2].length > 0 && match[2].replace(new RegExp(":(" + {
+                "http:": 80,
+                "https:": 443
+            }[location.protocol] + ")?$"), "") !== location.host)
+                return true;
+            return false;
+        }
+        </script>
+       
+    </head>
+
+    <body class="digital gopalganj">
+        <div id="selection_div"></div>
+        <div class="container">
+            
+            <div class="sixteen columns" style="background-color: #683091; box-shadow: 0 1px 5px #999999;height:auto;border-bottom:4px solid #8bc643;">
+                <div class="three columns" style=" display: inline-block;">
+                </div>
+            </div>
+						
+            <div class="sixteen columns slider">
+                <div class="callbacks_container">
+                    <ul class="rslides" id="front-image-slider" width="100%" height="220">
+		<div class="w3-content w3-section" style="max-width:100%">
+		<img class="mySlides" src="slide_image/01.jpg">
+		<img class="mySlides" src="slide_image/02.jpg">
+		<img class="mySlides" src="slide_image/03.jpg">
+		<img class="mySlides" src="slide_image/04.jpg">
+		<img class="mySlides" src="slide_image/05.jpg">
+	    </div>		
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
+
+
+		</ul> 
+				</div>
+                                
+                <div class="header-site-info" id="header-site-info">
+                    <div>
+                        <div id="logo">
+                        </div>
+                        <div class="clearfix" id="site-name-wrapper">
+                            <span id="site-name"><a title="Home" href="index.html">Welcome To Digital Gopalganj</a></span>
+                            <span id="slogan">
+                                                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                   		
+		<div class="sixteen columns" id="jmenu">
+            <div class="sixteen columns">
+                <div role="navigation" id="dawgdrops">
+                    <ul class="meganizr mzr-slide mzr-responsive" >
+                        <!-- Build The Menu -->
+                        <li class="col0"><a title="Home" href="index.html">Home</a></li>
+						<li class="col1"><a title="About Gopalganj" href="about.html">About Gopalganj</a>		
+						<li class="col2"><a title="Location" href="location.html">Location</a>
+						<li><a title="Information" href="info.html">Information</a></li>
+						<li><a title="Photo Gallery" href="gallery.html">Photo Gallery</a></li>
+						<li><a title="Map" href="map.html">Map</a></li>
+						<li><a title="AboutUs" href="about.html">AboutUs</a></li></ul></div>
+			</div>
+		</div> 
+		 <!-- End Build The Menu -->
+		 
+	<!---------- Starte Body Main Content--------->
+		<p>  <hr>        
+	<h5><p align="justify"><u>Administration:</u>&nbsp; Gopalganj district consists of 5 upazilas (previously known as 'Thana or Police Station'
+ which is essentially a sub-district) namely Gopalganj Sadar, Kotalipara, Kashiani, Muksudpur, and Tungipara; 4 Pourashavas/ 
+ Municipalities namely Gopalganj (Class A), Tungipara (Class B), Kotalipara (Class B) & Muksudpur (Class C) and 68 unions.<br>
+ The main township is known as Gopalganj Sadar, which consists of 9 wards and 49 mahallas. Gopalganj municipality was constituted 
+ in 1972. It has an area of 8.59 km² and a population of 40,987; male 53.27%, female 46.73% with a population density of 4,771 per km².<br>
+ Administrator of Zila Porishod: Choudhury Emdadul Haq.<br>
+ Deputy Commissioner (DC): Sarker Mukhlesur Rahman.<br></p></h5><hr>
+ 
+	<h5><p align="justify"><u>Subdivisions:</u>&nbsp; <br>
+    1. Gopalganj Sadar Upazila<br>
+    2. Kashiani Upazila<br>
+    3. Kotalipara Upazila<br>
+    4. Muksudpur Upazila<br>
+    5. Tungipara Upazila<br></p></h5> <hr>
+
+	<h5><p align="justify"><u>Education:</u>&nbsp;The district has 21 colleges, 181 high schools and 760 primary schools. Other notable educational institutions are as follows:<br>
+	1. Bangabandhu Sheikh Mujibur Rahman Science and Technology University<br>
+    2. Govt. Bangabandhu University College<br>
+    3. Gaohardanga Madrasa (historical Madrasa in southern part of Bangladesh)<br>
+    4. Sheikh Fazilatunnesa Govt. Mohila College<br>
+    5. Hazi Laal Mia City College<br>
+    6. S.M. Model Govt. High School<br>
+    7. Sheikh Russel Destitute Children Training and Rehabilitation Center at Tungipara<br>
+    8. Bangabandhu Poverty Reduction Training Complex<br>
+    9. sheikh Hasina girls school and college</p></h5><hr>
+	<h5><p align="justify"><u>Religion:</u>&nbsp; The district of Gopalganj has 356 mosques, 359 temples, 
+	250 churches and 4 tombs.</p></h5><hr>
+	<h5><p align="justify"><u>Places of interest:</u>&nbsp; Ulpur has a former Zamindar palace which is currently 
+	used a Tafsil Office. There are also many other Zamindar mansions from Mughal and British era. Arpara has a 
+	zamindar palace of former zaminder Munshi Abdur Razzak Chowdhury. Orakandi Thakur Bari in Kashiani, Anyanya 
+	Chandra Ghat in Sadar and zaminder Girish Chandra Sen's palace in Bhatiapara of Kashiani are some other 
+	historically notable places.<br>Father of the Nation Bangabandhu Sheikh Mujibur Rahman's Mausoleum Complex, 
+	Boddhyo Bhumi Memorial, Court Mosque, Gaohor Danga Madrasa, Madhumati riverbank developed in 2014, Bornir 
+	Baor, Sheikh Kamal International Stadium complex (including a state of the art swimming pool and gymnasium)
+	and Tangrakhola Bazar are some other places of attraction.</p></h5><hr>
+	<h5><p align="justify"><u>Water bodies:</u>&nbsp;<br>
+    1. Rivers: Garai, Modhumoti, Kaliganga, Madaripur Beel route channel, Hunda, Ghagore and Old Kumar rivers.<br>
+    2. Large Water Bodies/Beel/Haor/Baor: Borni Baor, Chandar beel and Baghyar beel.<br>
+    </p></h5><hr>
+
+
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	<!---------- End Body Main Content--------->
+		
+    <!---------- Starte Footer  Manu--------->
+        <div class="footer-artwork" id="footer-artwork">&nbsp;</div>
+        <div class="footer-wrapper full-width" id="footer-wrapper">
+    <div style="float:left; font-size: 20px;">Site Disign & Created BY:&nbsp;COMPUTER DEPARTMENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Planning and Implementing:&nbsp;CMT 3rd,&nbsp;&nbsp;<br>
+	Technical Support:&nbsp;<a href="http://www.facebook.com/sazal96"> SAJAL BISWAS</a>
+	</div>
+    </div>
+	 <!---------- End Footer  Manu--------->
+		</body>
+
+</html>

@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<meta charset="utf-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="X-Frame-Options" content="deny">-->
+    <!-- ======================= tt canonical start ======================== -->
+        <link rel="canonical" href="http://www.gopalganj.gov.bd/themes/responsive_npf/templates/ministry/themes/">
+
+    <!-- ======================= tt canonical End ======================== -->
+
+    <!-- ======================= tt title Start ======================== -->
+        <title> | গোপালগঞ্জ জেলা | গোপালগঞ্জ জেলা</title>
+    <!-- ======================= tt title End ======================== -->
+    <!-- ======================= tt Description start ======================== -->
+        <meta name="description" content="The requested page could not be found.">
+    <!-- ======================= tt Description End ======================== -->
+        <link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/stylesheets/base.css" /><link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/stylesheets/skeleton.css" /><link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/stylesheets/style.css" /><link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/stylesheets/meganizr.css" /><link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/stylesheets/demo.css" /><link type="text/css" rel="stylesheet" media="all" href="/npfadmin/public/css/flaticon/flaticon.css" /><link type="text/css" rel="stylesheet" media="all" href="/themes/responsive_npf/templates/ministry/style.css" />    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/themes/responsive_npf/stylesheets/responsiveslides.css">
+    <link rel="stylesheet" href="/themes/responsive_npf/templates/ministry/responsive.css">
+    <script src="/themes/responsive_npf/js/responsiveslides.min.js"></script>
+    <script src="/themes/responsive_npf/js/jquery.vticker.js" type="text/javascript"></script>
+    <script src="/themes/responsive_npf/js/domain_selector.js" type="text/javascript"></script>
+    <script src="/themes/responsive_npf/js/utils.js" type="text/javascript"></script>
+    <script src="/themes/responsive_npf/js/jquery.media.js" type="text/javascript"></script>
+    <script src="/themes/responsive_npf/js/jquery.keynav.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="/themes/responsive_npf/stylesheets/district.css">    <script>
+        function setLanguageCookie(cookieValue) {
+            var today = new Date();
+            var expire = new Date();
+            var cookieName = 'lang';
+            var cookieValue = "bn";
+            var nDays = 5;
+            expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+            document.cookie = cookieName + "=" + escape(cookieValue)
+                + ";expires=" + expire.toGMTString();
+        }
+        function setLanguage() {
+            $("#lang_form").submit();
+            return false;
+        }
+        $(function () {
+            // doc viewer
+            $('#navigation a').keynav();
+            $('a.viewer').media({width: 720, height: 600});
+            // Slideshow 4
+            $("#front-image-slider").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 2000,
+                maxwidth: 960,
+                maxHeight: 230,
+                namespace: "callbacks"
+            });
+            $("#right-content a").click(function () {
+                var url = $(this).attr('href');
+                if (isExternal(url) && url != 'javascript:;') {
+                    openInNewTab(url);
+                    return false;
+                }
+            });
+        });
+        function openInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+        function isExternal(url) {
+            var match = url.match(/^([^:\/?#]+:)?(?:\/\/([^\/?#]*))?([^?#]+)?(\?[^#]*)?(#.*)?/);
+            if (typeof match[1] === "string" && match[1].length > 0 && match[1].toLowerCase() !== location.protocol)
+                return true;
+            if (typeof match[2] === "string" && match[2].length > 0 && match[2].replace(new RegExp(":(" + {
+                        "http:": 80,
+                        "https:": 443
+                    }[location.protocol] + ")?$"), "") !== location.host)
+                return true;
+            return false;
+        }
+    </script>
+    <script type="text/javascript">
+        function print_content() {
+            var html_content = $("#printable_area").html();
+            newwindow = window.open();
+            newdocument = newwindow.document;
+            newdocument.write(html_content);
+            newdocument.close();
+            newwindow.print();
+            return false;
+        }
+    </script>
+    <style>
+        #domain-list {
+            padding: 5px;
+        }
+
+        #inputs > select, #inputs > input {
+            float: left;
+            margin: 0 5px;
+            padding: 0;
+            width: 100px;
+        }
+
+        [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+            display: inline;
+            font-size: 0.9em;
+            font-weight: normal;
+            margin-right: 5px;
+        }
+
+        .cabinet-portal-gov-bd .meganizr > li > a {
+            font-size: 20px
+        }
+
+        #domain-selector-panel {
+            height: auto;
+            min-height: 30px;
+            padding: 10px 0;
+        }
+
+        .domain-selector {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        .slide-panel {
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            width: 5px;
+            position: absolute;
+        }
+
+        .content {
+            z-index: 1000;
+            overflow: hidden;
+            text-align: left;
+            background-color: #343434;
+            height: 0;
+            width: 100%;
+            color: #fff;
+        }
+
+        .slide-panel-button {
+            position: relative;
+            width: 190px;
+            z-index: 20;
+            cursor: pointer;
+            height: auto;
+            padding: 0 5px;
+            text-align: left;
+        }
+
+        .slide-panel-button:hover {
+            color: #9f9d8e;
+        }
+
+        .slide-panel-button {
+            cursor: pointer;
+            color: #fff;
+            background-color: #333;
+        }
+
+        .slide-panel-button:hover {
+            color: #9f9d8e;
+        }
+
+        .slide-panel-btns {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .footer-credit {
+            float: right;
+            font-size: .8em;
+            margin: 40px 20px 0 0;
+            text-align: right;
+        }
+
+        .footer-credit ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-credit ul li, a, a:visited {
+
+            text-decoration: none;
+        }
+
+        .footer-credit ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #footer-menu {
+            float: left;
+            margin: 40px 0 0 20px;
+        }
+
+        #footer-menu ul li {
+            float: left;
+            border-left: solid 1px #ccc;
+        }
+
+        #footer-menu ul li:first-child {
+            border-left: solid 1px #eee;
+        }
+
+        #footer-menu ul li a {
+            padding: 5px;
+            color: #000;
+        }
+
+        #footer-menu ul li a:hover {
+            color: #fff;
+            background: #000;
+        }
+
+        .mainmenu {
+            z-index: 20;
+            position: relative;
+        }
+
+        @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+            #div-lang > form {
+                display: none
+            }
+
+            .meganizr li.col3 {
+                display: none
+            }
+        }
+
+        #printable_area table {
+            width: 100% !important;
+        }
+
+        .slide-panel-button {
+            width: 250px !important;
+        }
+
+        #div-lang-sel {
+            font-size: 18px;
+            font-weight: bold;
+            float: right;
+        }
+
+        #div-lang-sel span {
+            text-decoration: none;
+            background-color: #609513;
+            padding: 0 5px;
+            color: #fff;
+            margin: 0;
+        }
+
+        #div-lang-sel a {
+            text-decoration: none;
+            padding: 0 5px;
+            color: #fff;
+            margin: 0;
+        }
+
+        #div-lang-sel a:hover {
+            background-color: #34740E;
+        }
+
+        .sixteen.columns {
+            height: auto !important;
+        }
+
+        .sixteen.columns input, textarea, select, form, button {
+            margin-bottom: 0px !important;
+        }
+
+        #div-lang > .form {
+            width: 245px !important;
+        }
+
+        @media screen and (max-width: 767px) {
+            #search {
+                width: 200px !important;
+                left: 1px !important;
+                position: relative !important;
+            }
+
+            .search-btn {
+                left: 1px !important;
+                position: relative !important;
+            }
+
+            #div-lang {
+                text-align: left !important;
+            }
+
+            #div-lang > .form {
+                width: 300px !important;
+            }
+
+            #lang_form button, #lang_form {
+                margin-left: 5px !important;
+            }
+
+            #header-site-info {
+                top: 280px !important;
+            }
+        }
+    </style>
+
+
+    <style>
+        /* mega menu list */
+        .meganizr {
+            display: block;
+            position: relative;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            z-index: 15;
+
+        }
+
+        /* a top level navigation item in the mega menu */
+        .mzr-drop {
+            list-style: none;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* first descendant link within a top level navigation item */
+        .mzr-drop > a {
+            position: relative;
+            display: inline-block;
+            padding: 0.5em 1em;
+            margin: 0 0 -1px 0;
+            border: 1px solid transparent;
+        }
+
+        /* focus/open states of first descendant link within a top level
+           navigation item */
+        .mzr-drop > a:focus,
+        .mzr-drop > a.open {
+            border: 1px solid #dedede;
+        }
+
+        /* open state of first descendant link within a top level
+           navigation item */
+        .mzr-drop > a.open {
+            /* background-color: #fff; */
+            border-bottom: none;
+            z-index: 1;
+        }
+
+        /* sub-navigation panel */
+        .mzr-content {
+            position: absolute;
+            display: none;
+            top: 2.6em;
+            margin-top: -1px;
+            padding: 0.5em 1em;
+            border: 1px solid #dedede;
+            /* background-color: #fff; */
+        }
+
+        /* sub-navigation panel open state*/
+        .mzr-content.open {
+            display: block;
+        }
+
+        /* list of items within sub-navigation panel */
+        .mzr-content ul {
+            display: block;
+            vertical-align: top;
+            margin: 0 1em 0 0;
+            padding: 0;
+        }
+
+        /* list item within sub-navigation panel */
+        .mzr-content li {
+            display: block;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .focus-content {
+            background-color: #609513;
+        }
+
+        .mzr-content.open[aria-hidden="false"] {
+            display: block;
+            opacity: 1 !important;
+            visibility: visible !important;
+            top: 37px !important;
+        }
+
+        .mzr-content.open[aria-hidden="true"] {
+            display: none;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+
+        a.skip-link {
+            left: -999px;
+            position: absolute;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            z-index: -999;
+        }
+
+        a.skip-link:focus, a.skip-link:active {
+            color: #000;
+            background-color: #fff;
+            left: auto;
+            top: auto;
+            width: 30%;
+            height: auto;
+            overflow: auto;
+            margin: 30px 13%;
+            padding: 2px;
+            border-radius: 10px;
+            border: 4px solid black;
+            text-align: center;
+            font-size: 1.1em;
+            z-index: 9999;
+        }
+
+        @media only screen and (max-width: 959px) {
+
+            li.col3 .drop-four-columns {
+                margin-left: 0 !important;
+            }
+
+            .mzr-responsive.mzr-slide > li.mzr-drop:hover > div, .mzr-responsive.mzr-slide > li.mzr-drop:hover > ul, .mzr-responsive.mzr-slide > li > ul li.mzr-drop:hover > ul, .mzr-responsive.mzr-fade > li.mzr-drop:hover > div, .mzr-responsive.mzr-fade > li.mzr-drop:hover > ul, .mzr-responsive.mzr-fade > li > ul li.mzr-drop:hover > ul {
+                top: auto !important;
+            }
+        }
+
+        /*background design by tt*/
+        .accessibilityDesign {
+            background: #609513;
+            border: 1px solid grey;
+            float: left;
+            color: #fff !important;
+            margin: 15px 0 15px 0px;
+        }
+
+        .accessibilityDesign a {
+            color: #fff;
+        }
+
+        .textSize {
+            border-right: 2px solid grey;
+        }
+
+        .textSize, .textBg {
+            float: left;
+            padding: 10px;
+        }
+
+        .font-small, .font-medium, .font-large, .color-1, .color-2, .color-3, .color-4 {
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+
+        .font-small {
+            font-size: 12px;
+        }
+
+        .font-medium {
+            font-size: 18px;
+        }
+
+        .font-large {
+            font-size: 25px;
+        }
+
+        .color-1, .color-2, .color-3, .color-4 {
+            font-size: 12px;
+            border: 1px solid grey;
+        }
+
+        .color-1 {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .color-2 {
+            background-color: #cfe5fc;
+            color: #21205f;
+        }
+
+        .color-3 {
+            background-color: #2f2f2f;
+            color: #ffff00;
+        }
+
+        .color-4 {
+            background-color: #f7f3d6;
+            color: #000066;
+        }
+
+
+    </style>
+
+
+    <meta property="og:image" content=""/>
+</head>
+<body class="www-gopalganj-gov-bd">
+<div class="container">
+    <div class="sixteen columns"
+         style="background-color: #683091; box-shadow: 0 1px 5px #999999;height:35px;border-bottom:4px solid #8bc643;">
+        <div class="three columns" style=" display: inline-block;">
+            <a style="color: white;height:100%;display:table;padding: 7px;font-size:.9em;"
+               href="http://www.bangladesh.gov.bd/" target="_blank">
+                                    বাংলাদেশ জাতীয় তথ্য বাতায়ন
+                            </a>
+        </div>
+        <div class="two columns" style=" display: inline-block; padding: 5px;"><select class="chzn-select" title="বিভাগ নির্বাচন করতে এখানে ক্লিক করুন"><option>ঢাকা বিভাগ</option><option value='-'>---</option><option value="http://www.sylhetdiv.gov.bd">সিলেট বিভাগ</option><option value="http://www.chittagongdiv.gov.bd">চট্রগ্রাম বিভাগ</option><option value="http://www.rajshahidiv.gov.bd">রাজশাহী বিভাগ</option><option value="http://www.khulnadiv.gov.bd">খুলনা বিভাগ</option><option value="http://www.mymensinghdiv.gov.bd">ময়মনসিংহ বিভাগ</option><option value="http://www.rangpurdiv.gov.bd">রংপুর বিভাগ</option><option value="http://www.barisaldiv.gov.bd">বরিশাল বিভাগ</option><option value="http://www.dhakadiv.gov.bd">ঢাকা বিভাগ</option></select></div><div class="two columns" style=" display: inline-block; padding: 5px;"><select class="chzn-select" title="জেলা নির্বাচন করতে এখানে ক্লিক করুন"><option>গোপালগঞ্জ </option><option value='-'>---</option><option value="http://www.narsingdi.gov.bd">নরসিংদী  </option><option value="http://www.gazipur.gov.bd">গাজীপুর </option><option value="http://www.shariatpur.gov.bd">শরীয়তপুর  </option><option value="http://www.narayanganj.gov.bd">নারায়ণগঞ্জ  </option><option value="http://www.tangail.gov.bd">টাঙ্গাইল </option><option value="http://www.kishoreganj.gov.bd">কিশোরগঞ্জ </option><option value="http://www.manikganj.gov.bd">মানিকগঞ্জ </option><option value="http://www.dhaka.gov.bd">ঢাকা </option><option value="http://www.munshiganj.gov.bd">মুন্সিগঞ্জ </option><option value="http://www.rajbari.gov.bd">রাজবাড়ী </option><option value="http://www.madaripur.gov.bd">মাদারীপুর </option><option value="http://www.gopalganj.gov.bd">গোপালগঞ্জ </option><option value="http://www.faridpur.gov.bd">ফরিদপুর </option></select></div><div class="two columns" style=" display: inline-block; padding: 5px;"><select class="chzn-select" title="উপজেলা নির্বাচন করতে এখানে ক্লিক করুন"><option value='-'></option><option value="http://sadar.gopalganj.gov.bd">গোপালগঞ্জ সদর </option><option value="http://kashiani.gopalganj.gov.bd">কাশিয়ানী </option><option value="http://tungipara.gopalganj.gov.bd">টুংগীপাড়া </option><option value="http://kotalipara.gopalganj.gov.bd">কোটালীপাড়া </option><option value="http://muksudpur.gopalganj.gov.bd">মুকসুদপুর </option></select></div>        <div id="div-lang" class="four columns"
+             style="padding:5px;text-align: right;">
+            <form action="/site/search" style="margin: 0;padding: 0;width: 245px;float: left">
+                <input style="width:190px" id="search" name="key" value=""/>
+                <button class="search-btn" type="submit" style="margin: 0;padding: 2px 10px"/>
+                Go</button>
+            </form>
+        </div>
+        <div id="div-lang-sel" class="one columns" style="padding:5px;padding-right: 8px">
+            <form id="lang_form" action="" method="post">
+                                                    <input type="hidden" name="lang" id="lang" value="en"/>
+                    <button type="submit" style="height: 26px;padding: 4px;">English</button>
+                            </form>
+        </div>
+    </div>
+    <div class="sixteen columns">
+        <div class="callbacks_container" style="box-shadow: 0 1px 5px #999999;">
+            <ul class="rslides" id="front-image-slider">
+		<li>
+		        	<a target="_blank" href="http://gopalganjbranding.upazilapps.com">
+                <a href = "http://gopalganjbranding.upazilapps.com" title="/sites/default/files/files/www.gopalganj.gov.bd/top_banner/df7ed20d_ff71_457a_9546_84fe392981bb/253758f24bc5c479e106d5d163e8bb32.jpg"><img src="http://www.gopalganj.gov.bd/sites/default/files/files/www.gopalganj.gov.bd/top_banner/df7ed20d_ff71_457a_9546_84fe392981bb/253758f24bc5c479e106d5d163e8bb32.jpg" alt="" width="960" height="220"/></a>
+            	</li>
+		<li>
+		<a target="_blank" href="/site/top_banner/faba717c-2011-11e7-8f57-286ed488c766"><img src="http://www.gopalganj.gov.bd/sites/default/files/files/www.gopalganj.gov.bd/top_banner/faba717c_2011_11e7_8f57_286ed488c766/power plant.jpg" alt="" width="960" height="220"/></a>	</li>
+		<li>
+		<a target="_blank" href="/site/top_banner/fabac86b-2011-11e7-8f57-286ed488c766"><img src="http://www.gopalganj.gov.bd/sites/default/files/files/www.gopalganj.gov.bd/top_banner/fabac86b_2011_11e7_8f57_286ed488c766/daridrobimochon.jpg" alt="" width="960" height="220"/></a>	</li>
+		<li>
+		<a target="_blank" href="/site/top_banner/fabaca79-2011-11e7-8f57-286ed488c766"><img src="http://www.gopalganj.gov.bd/sites/default/files/files/www.gopalganj.gov.bd/top_banner/fabaca79_2011_11e7_8f57_286ed488c766/bannar.jpg" alt="" width="960" height="220"/></a>	</li>
+	</ul><style></style><script></script>        </div>
+        <div class="header-site-info" id="header-site-info">
+            <div class="header-site-info-inner inner" id="header-site-info-inner">
+                <div id="logo">
+                    <a title="Home" href="/"><img alt="Home" src="/themes/responsive_npf/img/logo.png"></a>
+                </div>
+                <div class="clearfix" id="site-name-wrapper">
+                    <span id="site-name"><a title="Home" href="/">গোপালগঞ্জ জেলা</a></span>
+                            <span id="slogan">
+                                                       </span>
+                </div>
+            </div>
+        </div>
+    </div>
+            <script>
+            /* Responsive Design*/
+            $(document).ready(function () {
+				var wi = $( window ).width();
+                if(wi < 980){
+					$('.show-menu').click(function () {
+						//$('.mzr-responsive').show();
+						$(".mzr-responsive").slideToggle(700,"linear", function () {
+						});
+					});
+		  
+                    $( ".mzr-drop> a" ).click(function() {
+                        
+                        $(".mzr-drop> a").siblings().addClass('sibling-toggle');
+
+                      $( this ).parent().find( ".mzr-content" ).removeClass('sibling-toggle').addClass('slide-visible').slideToggle(700,"linear", function() {
+                      });
+                      return false;
+                    });
+                } 
+
+            });
+            
+        </script>
+        <div class="sixteen columns" id="jmenu">
+            <div class="sixteen columns">
+
+               <a href="javascript:;" class="show-menu menu-head"> মেনু নির্বাচন করুন</a>
+                <div role="navigation" id="dawgdrops">
+                    <ul class="meganizr mzr-slide mzr-responsive" >
+                        <!-- Build The Menu -->
+                        <li class="col0"><a title="প্রথম পাতা" href="/">প্রথম পাতা</a></li><li class="col1 mzr-drop"><a title="জেলা সম্পর্কিত" href="javascript:;">জেলা সম্পর্কিত</a><div class="mzr-content drop-four-columns"><div class="one-col"><h6>জেলা পরিচিতি </h6><ul class="mzr-links"><li><a title="এক নজরে গোপালগঞ্জ জেলা" href="/site/page/0e7826ec-2013-11e7-8f57-286ed488c766">এক নজরে গোপালগঞ্জ জেলা</a></li><li><a title="ভৌগলিক পরিচিতি" href="/site/page/4d7a72d5-2013-11e7-8f57-286ed488c766">ভৌগলিক পরিচিতি</a></li><li><a title="জেলার পটভূমি" href="/site/page/476f1e81-2013-11e7-8f57-286ed488c766">জেলার পটভূমি</a></li><li><a title="মানচিত্রে গোপালগঞ্জ জেলা" href="/site/page/0e780c14-2013-11e7-8f57-286ed488c766">মানচিত্রে গোপালগঞ্জ জেলা</a></li><li><a title="উপজেলা ও ইউনিয়ন" href="/site/page/0e77f581-2013-11e7-8f57-286ed488c766">উপজেলা ও ইউনিয়ন</a></li></ul></div><div class="one-col"><h6>ইতিহাস-ঐতিহ্য </h6><ul class="mzr-links"><li><a title="জেলার ঐতিহ্য" href="/site/page/476f1e81-2013-11e7-8f57-286ed488c766">জেলার ঐতিহ্য</a></li><li><a title="দর্শনীয় স্থান" href="/site/view/tourist_spot">দর্শনীয় স্থান</a></li><li><a title="পুরাকীর্তির সংক্ষিপ্ত বর্ণনা" href="/site/page/0e77d0ad-2013-11e7-8f57-286ed488c766">পুরাকীর্তির সংক্ষিপ্ত বর্ণনা</a></li><li><a title="মুক্তিযুদ্ধ ও মুক্তিযোদ্ধাদের তালিকা" href="/site/page/3952bf21-2013-11e7-8f57-286ed488c766">মুক্তিযুদ্ধ ও মুক্তিযোদ্ধাদের তালিকা</a></li><li><a title="প্রখ্যাত ব্যক্তিত্ব" href="/site/page/0e77d3a5-2013-11e7-8f57-286ed488c766">প্রখ্যাত ব্যক্তিত্ব</a></li><li><a title="ভাষা ও সংস্কৃতি" href="/site/page/0e77e2a0-2013-11e7-8f57-286ed488c766">ভাষা ও সংস্কৃতি</a></li><li><a title="খেলাধুলা ও বিনোদন" href="/site/page/0e77e663-2013-11e7-8f57-286ed488c766">খেলাধুলা ও বিনোদন</a></li></ul></div><div class="one-col"><h6>ভৌগলিক ও অর্থনৈতিক </h6><ul class="mzr-links"><li><a title="প্রাকৃতিক সম্পদ" href="/site/page/0e77ea40-2013-11e7-8f57-286ed488c766">প্রাকৃতিক সম্পদ</a></li><li><a title="নদ-নদী" href="/site/page/0e77f13b-2013-11e7-8f57-286ed488c766">নদ-নদী</a></li><li><a title="ব্যবসা বানিজ্য" href="/site/page/0e77eb33-2013-11e7-8f57-286ed488c766">ব্যবসা বানিজ্য</a></li><li><a title="যোগাযোগ ব্যবস্থা" href="/site/page/0e77f219-2013-11e7-8f57-286ed488c766">যোগাযোগ ব্যবস্থা</a></li><li><a title="হাট বাজার" href="/site/view/hat_bazar_list">হাট বাজার</a></li></ul></div><div class="one-col"><h6>অন্যান্য </h6><ul class="mzr-links"><li><a title="জনপ্রতিনিধি" href="/site/view/leader">জনপ্রতিনিধি</a></li><li><a title="পত্রপত্রিকা" href="/site/view/newspapers">পত্রপত্রিকা</a></li><li><a title="বিশেষ অর্জন" href="/site/page/0e781bbb-2013-11e7-8f57-286ed488c766">বিশেষ অর্জন</a></li><li><a title="হোটেল ও আবাসন" href="/site/page/0e77ee01-2013-11e7-8f57-286ed488c766">হোটেল ও আবাসন</a></li></ul></div></div></li><li class="col2 mzr-drop"><a title="জেলা প্রশাসন" href="javascript:;">জেলা প্রশাসন</a><div class="mzr-content drop-four-columns"><div class="one-col"><h6>জেলা প্রশাসক</h6><ul class="mzr-links"><li><a title="জেলা প্রশাসকের বার্তা" href="/site/dc_speech/365c93e6-2015-11e7-8f57-286ed488c766">জেলা প্রশাসকের বার্তা</a></li><li><a title="প্রোফাইল" href="/site/officer_list/661074e6-2010-11e7-8f57-286ed488c766">প্রোফাইল</a></li><li><a title="জনগনের সভা" href="/site/page/0e789d10-2013-11e7-8f57-286ed488c766">জনগনের সভা</a></li><li><a title="সাধারণ দায়িত্বাবলী" href="/site/page/0e7836d4-2013-11e7-8f57-286ed488c766">সাধারণ দায়িত্বাবলী</a></li><li><a title="পুর্বতন জেলা প্রশাসকবৃন্দ" href="/site/page/0e785a94-2013-11e7-8f57-286ed488c766">পুর্বতন জেলা প্রশাসকবৃন্দ</a></li></ul></div><div class="one-col"><h6>অতিরিক্ত জেলা প্রশাসকগন </h6><ul class="mzr-links"><li><a title="উপপরিচালক, স্থানীয় সরকার" href="/site/officer_list/2fc39c51-2011-11e7-8f57-286ed488c766">উপপরিচালক, স্থানীয় সরকার</a></li><li><a title="অতিরিক্ত জেলা ম্যাজিস্ট্রেট" href="/site/officer_list/3189c822-2011-11e7-8f57-286ed488c766">অতিরিক্ত জেলা ম্যাজিস্ট্রেট</a></li><li><a title="অতিরিক্ত জেলা প্রশাসক(রাজস্ব)" href="/site/officer_list/3189c822-2011-11e7-8f57-286ed488c766">অতিরিক্ত জেলা প্রশাসক(রাজস্ব)</a></li><li><a title="অতিরিক্ত জেলা প্রশাসক(সার্বিক)" href="/site/officer_list/c82baf1d-2010-11e7-8f57-286ed488c766">অতিরিক্ত জেলা প্রশাসক(সার্বিক)</a></li><li><a title="অতিরিক্ত জেলা প্রশাসক(শিক্ষা ও আইসিটি)" href="/site/officer_list/218584e5-2011-11e7-8f57-286ed488c766">অতিরিক্ত জেলা প্রশাসক(শিক্ষা ও আইসিটি)</a></li></ul></div><div class="one-col"><h6>শাখা সম্পর্কিত</h6><ul class="mzr-links"><li><a title="জেলা প্রশাসনের শাখাসমূহ" href="/site/view/sections">জেলা প্রশাসনের শাখাসমূহ</a></li><li><a title="সিটিজেন চার্টার" href="/site/view/citizen_charter">সিটিজেন চার্টার</a></li><li><a title="শাখাভিত্তিক ফর্মস" href="/site/view/forms">শাখাভিত্তিক ফর্মস</a></li><li><a title="সভার কার্যবিবরণী" href="/site/view/meetings">সভার কার্যবিবরণী</a></li><li><a title="আইন ও পলিসি" href="/site/view/law_policy">আইন ও পলিসি</a></li><li><a title="ডিজিটাল গার্ড ফাইল" href="/site/view/digital_guard_file">ডিজিটাল গার্ড ফাইল</a></li></ul></div><div class="one-col"><h6>কর্মকর্তা বৃন্দ </h6><ul class="mzr-links"><li><a title="কালেক্টরেট এর কর্মকর্তাবৃন্দ" href="/site/view/dc_officers">কালেক্টরেট এর কর্মকর্তাবৃন্দ</a></li><li><a title="কালেক্টরেট এর কর্মচারীবৃন্দ" href="/site/view/staff_dc">কালেক্টরেট এর কর্মচারীবৃন্দ</a></li><li><a title="উপজেলা নির্বাহী অফিসার" href="/site/view/uno">উপজেলা নির্বাহী অফিসার</a></li><li><a title="সহকারী কমিশনার (ভূমি)" href="/site/view/ac_land">সহকারী কমিশনার (ভূমি)</a></li></ul></div><div class="one-col"><h6>জেলা প্রশাসকের কার্যালয়</h6><ul class="mzr-links"><li><a title="জেলা প্রশাসনের পটভূমি" href="/site/page/0e785fa8-2013-11e7-8f57-286ed488c766">জেলা প্রশাসনের পটভূমি</a></li><li><a title="সাংগঠনিক কাঠামো" href="/site/page/0e786368-2013-11e7-8f57-286ed488c766">সাংগঠনিক কাঠামো</a></li><li><a title="যোগাযোগ" href="/site/page/0e789fc3-2013-11e7-8f57-286ed488c766">যোগাযোগ</a></li><li><a title="সার্কিট হাউস" href="/site/page/0e788ea7-2013-11e7-8f57-286ed488c766">সার্কিট হাউস</a></li><li><a title="ফ্রন্ট ডেস্ক" href="/site/page/0e82cb29-2013-11e7-8f57-286ed488c766">ফ্রন্ট ডেস্ক</a></li><li><a title="সম্পদ ও লজিষ্টিক" href="/site/page/0e7896d8-2013-11e7-8f57-286ed488c766">সম্পদ ও লজিষ্টিক</a></li></ul></div><div class="one-col"><h6>গুরুত্বপূর্ণ তথ্য</h6><ul class="mzr-links"><li><a title="কি সেবা কিভাবে পাবেন" href="/site/view/offices">কি সেবা কিভাবে পাবেন</a></li><li><a title="প্রশাসন কর্তৃক পালিত দিবস" href="/site/page/0e794450-2013-11e7-8f57-286ed488c766">প্রশাসন কর্তৃক পালিত দিবস</a></li><li><a title="জেলার উদ্যোক্তাদের তথ্য" href="/site/page/914f2c35-2013-11e7-8f57-286ed488c766">জেলার উদ্যোক্তাদের তথ্য</a></li><li><a title="ফটোগ্যালারী" href="/site/view/photogallery">ফটোগ্যালারী</a></li></ul></div><div class="one-col"><h6></h6><ul class="mzr-links"><li><a title="জেলা ই- সেবা কেন্দ্র" href="/nolink/20256">জেলা ই- সেবা কেন্দ্র</a></li></ul></div><div class="one-col"><h6>অন্যান্য </h6><ul class="mzr-links"><li><a title="কর্পোরেট সিমের নম্বর" href="/site/page/95774b25-2013-11e7-8f57-286ed488c766">কর্পোরেট সিমের নম্বর</a></li><li><a title="ইনোভেশন টিম" href="/site/page/6d2bd370-2013-11e7-8f57-286ed488c766">ইনোভেশন টিম</a></li></ul></div></div></li><li class="col3 mzr-drop"><a title="স্থানীয় সরকার" href="javascript:;">স্থানীয় সরকার</a><div class="mzr-content drop-three-columns"><div class="one-col"><h6>পৌরসভা </h6><ul class="mzr-links"><li><a title="মেয়র এর বার্তা" href="/site/page/6a0369a0-2013-11e7-8f57-286ed488c766">মেয়র এর বার্তা</a></li><li><a title="গোপালগঞ্জ পৌরসভার সংক্ষিপ্ত বর্ননা" href="/site/page/53fc2464-2013-11e7-8f57-286ed488c766">গোপালগঞ্জ পৌরসভার সংক্ষিপ্ত বর্ননা</a></li><li><a title="পুর্বতন মেয়র/প্রশাসকগন" href="/site/page/0e82d7db-2013-11e7-8f57-286ed488c766">পুর্বতন মেয়র/প্রশাসকগন</a></li><li><a title="যোগাযোগ" href="/site/page/0e82dd0f-2013-11e7-8f57-286ed488c766">যোগাযোগ</a></li><li><a title="সিটিজেন চার্টার" href="/site/page/0e82e7c1-2013-11e7-8f57-286ed488c766">সিটিজেন চার্টার</a></li><li><a title="কর্মকর্তাবৃন্দ" href="/site/page/0e82f565-2013-11e7-8f57-286ed488c766">কর্মকর্তাবৃন্দ</a></li><li><a title="কর্মচারীবৃন্দ" href="/site/page/0e83015f-2013-11e7-8f57-286ed488c766">কর্মচারীবৃন্দ</a></li><li><a title="শাখাসমূহ ও কার্যাবলী" href="/site/page/0e8333c2-2013-11e7-8f57-286ed488c766">শাখাসমূহ ও কার্যাবলী</a></li></ul></div><div class="one-col"><h6>জেলা পরিষদ </h6><ul class="mzr-links"><li><a title="জেলা পরিষদ প্রশাসক" href="/site/page/9577c898-2013-11e7-8f57-286ed488c766">জেলা পরিষদ প্রশাসক</a></li><li><a title="জনশক্তি" href="/site/page/0e82def3-2013-11e7-8f57-286ed488c766">জনশক্তি</a></li><li><a title="কর্মকর্তা / কর্মচারীবৃন্দ" href="/site/page/53e80bea-2013-11e7-8f57-286ed488c766">কর্মকর্তা / কর্মচারীবৃন্দ</a></li><li><a title="প্রেক্ষাপট" href="/site/page/53e801a0-2013-11e7-8f57-286ed488c766">প্রেক্ষাপট</a></li><li><a title="কার্যাবলী" href="/site/page/0e8a1d20-2013-11e7-8f57-286ed488c766">কার্যাবলী</a></li><li><a title="সিটিজেন চার্টার" href="/site/page/0e8a1552-2013-11e7-8f57-286ed488c766">সিটিজেন চার্টার</a></li><li><a title="সাংগঠনিক কাঠামো" href="/site/page/0e8a1c53-2013-11e7-8f57-286ed488c766">সাংগঠনিক কাঠামো</a></li><li><a title="জেলা পরিষদের কার্যাবলী" href="/site/page/53e8088a-2013-11e7-8f57-286ed488c766">জেলা পরিষদের কার্যাবলী</a></li><li><a title="জেলা পরিষদ আইন ও বিধি" href="/site/view/law_policy">জেলা পরিষদ আইন ও বিধি</a></li><li><a title="ভিশন" href="/site/page/3952c3cd-2013-11e7-8f57-286ed488c766">ভিশন</a></li><li><a title="মিশন" href="/site/page/0e8a13c7-2013-11e7-8f57-286ed488c766">মিশন</a></li></ul></div><div class="one-col"><h6>অন্যান্য</h6><ul class="mzr-links"><li><a title="উপজেলা পরিষদ চেয়ারম্যানবৃন্দ" href="/site/page/0e77f581-2013-11e7-8f57-286ed488c766">উপজেলা পরিষদ চেয়ারম্যানবৃন্দ</a></li><li><a title="ইউনিয়ন পরিষদ চেয়ারম্যানবৃন্দ" href="/site/page/0e77f581-2013-11e7-8f57-286ed488c766">ইউনিয়ন পরিষদ চেয়ারম্যানবৃন্দ</a></li><li><a title="নোটিশ ও বিজ্ঞপ্তি" href="/site/view/notice-board">নোটিশ ও বিজ্ঞপ্তি</a></li></ul></div></div></li><li class="col4 mzr-drop"><a title="সরকারী অফিস সমূহ" href="javascript:;">সরকারী অফিস সমূহ</a><div class="mzr-content drop-four-columns"><div class="one-col"><h6>আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক</h6><ul class="mzr-links"><li><a title="জেলা পুলিশ সুপারের কার্যালয়" href="http://police.gopalganj.gov.bd/">জেলা পুলিশ সুপারের কার্যালয়</a></li><li><a title="আনসার ও গ্রাম প্রতিরক্ষা" href="http://ansarvdp.gopalganj.gov.bd/">আনসার ও গ্রাম প্রতিরক্ষা</a></li><li><a title="ফায়ার সার্ভিস ও সিভিল ডিফেন্স" href="http://fireservice.gopalganj.gov.bd/">ফায়ার সার্ভিস ও সিভিল ডিফেন্স</a></li><li><a title="জেলা কারাগার, গোপালগঞ্জ" href="http://prison.gopalganj.gov.bd/">জেলা কারাগার, গোপালগঞ্জ</a></li></ul></div><div class="one-col"><h6>শিক্ষা ও সংস্কৃতি</h6><ul class="mzr-links"><li><a title="জেলা শিক্ষা অফিস" href="http://deo.gopalganj.gov.bd/">জেলা শিক্ষা অফিস</a></li><li><a title="জেলা উপানুষ্ঠানিক শিক্ষা ব্যুরো" href="http://bnfe.gopalganj.gov.bd/">জেলা উপানুষ্ঠানিক শিক্ষা ব্যুরো</a></li><li><a title="জেলা শিল্পকলা একাডেমী" href="http://shilpakala.gopalganj.gov.bd/">জেলা শিল্পকলা একাডেমী</a></li><li><a title="জেলা ক্রীড়া অফিস" href="http://sports.gopalganj.gov.bd/">জেলা ক্রীড়া অফিস</a></li><li><a title="বাংলাদেশ শিশু একাডেমী, গোপালগঞ্জ।" href="http://shishuacademy.gopalganj.gov.bd/">বাংলাদেশ শিশু একাডেমী, গোপালগঞ্জ।</a></li><li><a title="জেলা প্রাথমিক শিক্ষা অফিস" href="http://dpe.gopalganj.gov.bd/">জেলা প্রাথমিক শিক্ষা অফিস</a></li></ul></div><div class="one-col"><h6>কৃষি ও খাদ্য বিষয়ক</h6><ul class="mzr-links"><li><a title="কৃষি সম্প্রসারণ অধিদপ্তর" href="/site/field_office/f70b008a-2015-11e7-8f57-286ed488c766">কৃষি সম্প্রসারণ অধিদপ্তর</a></li><li><a title="জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়" href="http://food.gopalganj.gov.bd/">জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়</a></li><li><a title="জেলা মৎস্য অফিস" href="http://fisheries.gopalganj.gov.bd/">জেলা মৎস্য অফিস</a></li><li><a title="জেলা প্রাণিসম্পদ অফিস" href="http://dls.gopalganj.gov.bd/">জেলা প্রাণিসম্পদ অফিস</a></li><li><a title="বিএডিসি,(বীজ)" href="http://smbadc.gopalganj.gov.bd/">বিএডিসি,(বীজ)</a></li><li><a title="কৃষি বিপনন অধিদপ্তর" href="http://dam.gopalganj.gov.bd/">কৃষি বিপনন অধিদপ্তর</a></li><li><a title="নির্বাহী প্রকৌশলীর অফিস বিএডিসি,(ক্ষুদ্রসেচ)" href="http://badc.gopalganj.gov.bd/">নির্বাহী প্রকৌশলীর অফিস বিএডিসি,(ক্ষুদ্রসেচ)</a></li><li><a title="জেলা কৃষি তথ্য ও যোগাযোগ অফিসারের কার্যালয়" href="http://ais.gopalganj.gov.bd/">জেলা কৃষি তথ্য ও যোগাযোগ অফিসারের কার্যালয়</a></li></ul></div><div class="one-col"><h6>স্বাস্থ্য বিষয়ক</h6><ul class="mzr-links"><li><a title="জেলা সিভিল সার্জনের কার্যালয়" href="http://cs.gopalganj.gov.bd/">জেলা সিভিল সার্জনের কার্যালয়</a></li><li><a title="পরিবার পরিকল্পনা" href="http://fpo.gopalganj.gov.bd/">পরিবার পরিকল্পনা</a></li><li><a title="জনস্বাস্থ্য প্রকৌশল অধিদপ্তর" href="http://dphe.gopalganj.gov.bd/">জনস্বাস্থ্য প্রকৌশল অধিদপ্তর</a></li><li><a title="ঔষধ প্রশাসন, গোপালগঞ্জ।" href="http://da.gopalganj.gov.bd/">ঔষধ প্রশাসন, গোপালগঞ্জ।</a></li></ul></div><div class="one-col"><h6>প্রকৌশল ও যোগাযোগ</h6><ul class="mzr-links"><li><a title="তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর" href="/site/field_office/4b8b8de5-2016-11e7-8f57-286ed488c766">তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর</a></li><li><a title="গণপূর্ত বিভাগ" href="http://pwd.gopalganj.gov.bd/">গণপূর্ত বিভাগ</a></li><li><a title="সড়ক ও জনপথ" href="http://rhd.gopalganj.gov.bd/">সড়ক ও জনপথ</a></li><li><a title="স্থানীয় সরকার প্রকৌশল অধিদপ্তর" href="http://lged.gopalganj.gov.bd/">স্থানীয় সরকার প্রকৌশল অধিদপ্তর</a></li><li><a title="পানি উন্নয়ন বোর্ড" href="http://bwdb.gopalganj.gov.bd/">পানি উন্নয়ন বোর্ড</a></li><li><a title="বিটিসিএল" href="http://btcl.gopalganj.gov.bd/">বিটিসিএল</a></li><li><a title="ডাক বিভাগ" href="http://post.gopalganj.gov.bd/">ডাক বিভাগ</a></li><li><a title="শিক্ষা প্রকৌশল অধিদপ্তর" href="http://eed.gopalganj.gov.bd/">শিক্ষা প্রকৌশল অধিদপ্তর</a></li><li><a title="গোপালগঞ্জ বিদ্যুৎ সরবরাহ,ওজোপাডিকোলি" href="http://wzpdcl.gopalganj.gov.bd/">গোপালগঞ্জ বিদ্যুৎ সরবরাহ,ওজোপাডিকোলি</a></li><li><a title="গোপালগঞ্জ পল্লী বিদ্যুৎ সমিতি" href="http://pbs.gopalganj.gov.bd/">গোপালগঞ্জ পল্লী বিদ্যুৎ সমিতি</a></li></ul></div><div class="one-col"><h6>মানব সম্পদ উন্নয়ন বিষয়ক</h6><ul class="mzr-links"><li><a title="শহীদ শেখ জামাল যুব প্রশিক্ষণ কেন্দ্র, টুংগীপাড়া, গোপালগঞ্জ।" href="http://ytc.gopalganj.gov.bd/">শহীদ শেখ জামাল যুব প্রশিক্ষণ কেন্দ্র, টুংগীপাড়া, গোপালগঞ্জ।</a></li><li><a title="শেখ রাসেল দু্:স্থ শিশু প্রশিক্ষন ও পুনর্বাসন কেন্দ্র, টুংগীপাড়া,গোপালগন্জ্" href="http://upctrc.gopalganj.gov.bd/">শেখ রাসেল দু্:স্থ শিশু প্রশিক্ষন ও পুনর্বাসন কেন্দ্র, টুংগীপাড়া,গোপালগন্জ্</a></li><li><a title="জেলা সমাজসেবা কার্যালয়,গোপালগঞ্জ" href="http://dss.gopalganj.gov.bd/">জেলা সমাজসেবা কার্যালয়,গোপালগঞ্জ</a></li><li><a title="যুব উন্নয়ন" href="http://youth.gopalganj.gov.bd/">যুব উন্নয়ন</a></li><li><a title="জেলা মহিলা বিষয়ক কর্মকর্তার কার্যালয়" href="http://dwa.gopalganj.gov.bd/">জেলা মহিলা বিষয়ক কর্মকর্তার কার্যালয়</a></li><li><a title="বিআরডিবি" href="http://brdb.gopalganj.gov.bd/">বিআরডিবি</a></li><li><a title="সমবায়" href="http://cooparative.gopalganj.gov.bd/">সমবায়</a></li><li><a title="কর্মসংস্থান ও জনশক্তি" href="http://bmet.gopalganj.gov.bd/">কর্মসংস্থান ও জনশক্তি</a></li><li><a title="ইসলামিক ফাউন্ডেশন" href="http://islamicfoundation.gopalganj.gov.bd/">ইসলামিক ফাউন্ডেশন</a></li><li><a title="হিন্দু ধর্মীয় কল্যান ট্রাষ্ট" href="http://hrwt.gopalganj.gov.bd/">হিন্দু ধর্মীয় কল্যান ট্রাষ্ট</a></li></ul></div><div class="one-col"><h6>অন্যান্য অফিসসমূহ</h6><ul class="mzr-links"><li><a title="পাসপোর্ট অফিস" href="http://passport.gopalganj.gov.bd/">পাসপোর্ট অফিস</a></li><li><a title="জেলা রেজিস্ট্রারের কার্যালয়" href="http://dr.gopalganj.gov.bd/">জেলা রেজিস্ট্রারের কার্যালয়</a></li><li><a title="জেলা হিসাব রক্ষণ অফিস" href="http://dao.gopalganj.gov.bd/">জেলা হিসাব রক্ষণ অফিস</a></li><li><a title="কর কমিশনারের কার্যালয়" href="http://tax.gopalganj.gov.bd/">কর কমিশনারের কার্যালয়</a></li><li><a title="জেলা তথ্য অফিস" href="http://info.gopalganj.gov.bd/">জেলা তথ্য অফিস</a></li><li><a title="ত্রাণ ও পুনর্বাসন অফিস" href="http://drro.gopalganj.gov.bd/">ত্রাণ ও পুনর্বাসন অফিস</a></li></ul></div><div class="one-col"><h6>আরও ...</h6><ul class="mzr-links"><li><a title="জেলা নির্বাচন অফিস" href="http://ec.gopalganj.gov.bd/">জেলা নির্বাচন অফিস</a></li><li><a title="জেলা সঞ্চয় অফিস" href="http://savings.gopalganj.gov.bd/">জেলা সঞ্চয় অফিস</a></li><li><a title="বিসিসি/জেলা আইসিটি কেন্দ্র, গোপালগঞ্জ" href="http://bcc.gopalganj.gov.bd/">বিসিসি/জেলা আইসিটি কেন্দ্র, গোপালগঞ্জ</a></li><li><a title="বিসিক" href="http://bscic.gopalganj.gov.bd/">বিসিক</a></li></ul></div></div></li><li class="col5 mzr-drop"><a title="অন্যান্য প্রতিষ্ঠান" href="javascript:;">অন্যান্য প্রতিষ্ঠান</a><div class="mzr-content drop-four-columns"><div class="one-col"><h6>শিক্ষা প্রতিষ্ঠান</h6><ul class="mzr-links"><li><a title="বিশ্ববিদ্যালয়" href="/site/view/university">বিশ্ববিদ্যালয়</a></li><li><a title="মহাবিদ্যালয়" href="/site/view/college">মহাবিদ্যালয়</a></li><li><a title="মাধ্যমিক বিদ্যালয়" href="/site/view/high_school">মাধ্যমিক বিদ্যালয়</a></li><li><a title="নিম্ন মাধ্যমিক বিদ্যালয়" href="/site/view/junior_school">নিম্ন মাধ্যমিক বিদ্যালয়</a></li><li><a title="প্রাথমিক বিদ্যালয়" href="/site/view/primary_school">প্রাথমিক বিদ্যালয়</a></li><li><a title="মাদ্রাসা" href="/site/view/madrasa">মাদ্রাসা</a></li><li><a title="কারিগরী বিদ্যালয়" href="/site/view/technical">কারিগরী বিদ্যালয়</a></li><li><a title="অন্যান্য শিক্ষা প্রতিষ্ঠানসমূহ" href="/site/view/others">অন্যান্য শিক্ষা প্রতিষ্ঠানসমূহ</a></li><li><a title="সকল শিক্ষা প্রতিষ্ঠানসমূহ" href="/site/view/education-institutes">সকল শিক্ষা প্রতিষ্ঠানসমূহ</a></li></ul></div><div class="one-col"><h6>সংস্থা/সংগঠন</h6><ul class="mzr-links"><li><a title="রেড ক্রিসেন্ট" href="/site/page/0e92944d-2013-11e7-8f57-286ed488c766">রেড ক্রিসেন্ট</a></li><li><a title="জেলা ক্রীড়া সংস্থা" href="/site/page/0e92ace5-2013-11e7-8f57-286ed488c766">জেলা ক্রীড়া সংস্থা</a></li><li><a title="মহিলা ক্রীড়া সংস্থা" href="/site/page/0e92b425-2013-11e7-8f57-286ed488c766">মহিলা ক্রীড়া সংস্থা</a></li><li><a title="শেখ রাসেল স্মৃতি সংস্থা, টুংগীপাড়া" href="/site/page/0e9298e6-2013-11e7-8f57-286ed488c766">শেখ রাসেল স্মৃতি সংস্থা, টুংগীপাড়া</a></li><li><a title="ফুটবল এসোসিয়েশন" href="/site/page/0e92b78e-2013-11e7-8f57-286ed488c766">ফুটবল এসোসিয়েশন</a></li></ul></div><div class="one-col"><h6>বেসরকারি প্রতিষ্ঠান</h6><ul class="mzr-links"><li><a title="এনজিও" href="/site/page/0e92bd6b-2013-11e7-8f57-286ed488c766">এনজিও</a></li><li><a title="ব্যাংক" href="/site/view/financial_institutions">ব্যাংক</a></li><li><a title="বীমা" href="/site/page/0e92cc12-2013-11e7-8f57-286ed488c766">বীমা</a></li><li><a title="মনোতোষ কম্পিউটার" href="/site/page/9756ac0d-2013-11e7-8f57-286ed488c766">মনোতোষ কম্পিউটার</a></li></ul></div><div class="one-col"><h6>ধর্মীয় প্রতিষ্ঠান</h6><ul class="mzr-links"><li><a title="মসজিদ" href="/site/view/religious_institutes/3027/মসজিদ">মসজিদ</a></li><li><a title="মন্দির" href="/site/view/religious_institutes/3027/মন্দির">মন্দির</a></li><li><a title="গির্জা" href="/site/view/religious_institutes/3027/গীর্জা">গির্জা</a></li><li><a title="এতিমখানা" href="/site/view/religious_institutes/3027/এতিমখানা ">এতিমখানা</a></li></ul></div></div></li><li class="col6 mzr-drop"><a title="ই-সেবা" href="javascript:;">ই-সেবা</a><div class="mzr-content drop-two-columns"><div class="one-col"><h6></h6><ul class="mzr-links"><li><a title="জেলা ই সেবা কেন্দ্র" href="/nolink/440882">জেলা ই সেবা কেন্দ্র</a></li></ul></div><div class="one-col"><h6>জাতীয়  ই সেবা </h6><ul class="mzr-links"><li><a title="সরকারি ফরম ডাউনলোড" href="http://www.forms.gov.bd/">সরকারি ফরম ডাউনলোড</a></li><li><a title="ই তথ্য কোষ" href="http://www.infokosh.gov.bd/">ই তথ্য কোষ</a></li><li><a title="কৃষি তথ্য সার্ভিস" href="http://www.ais.gov.bd/">কৃষি তথ্য সার্ভিস</a></li><li><a title="ই বুক" href="http://www.ebook.gov.bd">ই বুক</a></li></ul></div></div></li><li class="col7"><a title="ফটোগ্যালারী" href="/site/view/photogallery">ফটোগ্যালারী</a></li><li class="col8"><a title="এনজিও পোর্টাল" href="/">এনজিও পোর্টাল</a></li>                    </ul>
+                </div>
+            </div>
+        </div>    <div id="contents" class="sixteen columns">
+        <div class="edit_panel" style="background-color:#ccc; padding:2px;">
+                    </div>
+        <div class="accessibilityDesign" id="accessibilityDesign" title="লিখার রঙ ও সাইজ পরিবর্তন করুন">
+            <div class="textSize">
+                <span>Text size</span>
+                <span title="Small font" class="font-small" onclick="fontSize(12)">A</span>
+                <span title="Medium font" class="font-medium" onclick="fontSize(16)">A</span>
+                <span title="Large font" class="font-large" onclick="fontSize(20)">A</span>
+            </div>
+            <div class="textBg">
+                <span>Color</span>
+                <span title="Bancground white text black" class="color-1" onclick="fontBgColor('fff','000')">C</span>
+                <span title="Bancground blue text black" class="color-2"
+                      onclick="fontBgColor('cfe5fc','21205f')">C</span>
+                <span title="Bancground black text yellow" class="color-3"
+                      onclick="fontBgColor('2f2f2f','ffff00')">C</span>
+                <span title="Bancground grey text blue" class="color-4"
+                      onclick="fontBgColor('f7f3d6','000066')">C</span>
+            </div>
+        </div>
+
+
+                <script language="javascript" type="text/javascript">
+            function popitup(url) {
+                newwindow = window.open(url, 'name', 'height=200,width=150');
+                if (window.focus) {
+                    newwindow.focus()
+                }
+                return false;
+            }
+        </script>
+        <style>
+            .share ul li {
+                display: inline
+            }
+        </style>
+
+                    <div class="twelve columns" id="left-content">
+                                                The requested page could not be found.                            </div>
+            <div class="four columns right-side-bar" id="right-content">
+                <div class="column block static_img_add">
+		<a href="/site/view/district_branding" alt="District Branding"> 
+		<img src="http://www.sylhet.gov.bd/sites/default/files/files/www.sylhet.gov.bd/page/a878681e_5630_46f7_859d_4f8ddc01b37d/4a645df911dcb16000bfaee9d0d30a02.png" width="100%" height="45px;">
+	</a>
+		<a href="http://online.forms.gov.bd" alt="Online Forms"> 
+		<img src="http://bangladesh.gov.bd/sites/default/files/files/bangladesh.gov.bd/graphical_result_button/6b8058ef_c17d_4a2d_9b26_b4779731503b/b7%20(1).jpg" width="100%" height="45px;">
+	</a>	
+	<a href="http://www.challenge.gov.bd/" alt=" চ্যালেঞ্জ ফান্ড "> 
+		<img src="http://www.sylhetdiv.gov.bd/sites/default/files/files/www.sylhetdiv.gov.bd/page/5a7d8617_7fa4_4d50_8eb2_2aa1d1a10962/db0f4abaa6344576944a6a4054df3742.jpg" width="100%" height="100px;">
+</a>
+</div>
+<div class="column block">
+	<table style="width:100%;table-layout:fixed;">
+		<tbody>
+			<tr>
+				<td class="apply-online">
+					<a href="/site/view/jobcorner" style="">
+						<span>চাকুরি <sup>(&#x09E6;)</sup></span>
+					</a>
+				</td>
+				<td class="apply-online">
+					<a href="/site/view/tendercorner" style="">
+						<span>টেন্ডার <sup>(&#x09E6;)</sup></span>
+					</a>
+				</td>
+				<td class="apply-online">
+					<a href="/site/view/adcorner" style="">
+						<span>বিজ্ঞাপন <sup>(&#x09E6;)</sup></span>
+					</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<style>.apply-online {
+	border-bottom-style: solid ! important;
+	border-bottom-width: 5px ! important;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	padding-bottom: 15px ! important;
+	padding-top: 15px ! important;
+	text-align: center;
+	border-right: 1px solid white;
+}
+.apply-online a{
+	color: #683091
+}
+
+sup {font-size:xx-small; vertical-align:super;}
+.static_img_add img {float:none!important}
+</style><script>$(function(){
+$("#slideshow > div:gt(0)").hide();
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .hide('slow')
+    .next()
+    .show('slow')
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+});</script><div class="column block central-eservices right-block">
+	<h5 class="bk-org title eservice-title ces_title">কেন্দ্রীয় ই-সেবা
+	</h5>
+				<ul>
+				
+				
+				<li class="item_1"><a href="http://online.forms.gov.bd/" title="অনলাইনে সেবার আবেদন">অনলাইনে সেবার আবেদন</a></li>
+							
+				
+				<li class="item_2"><a href="http://www.nothi.gov.bd/users/login" title="নথি">নথি</a></li>
+							
+				
+				<li class="item_3"><a href="http://bangladesh.gov.bd/site/page/5c238920-a65f-4168-9c2b-70c39dc7cb1c" title="প্রয়োজনীয় এপস ">প্রয়োজনীয় এপস </a></li>
+							
+				
+				<li class="item_4"><a href="http://bris.lgd.gov.bd/pub/?pg=application_form" title="জন্ম ও মৃত্যু নিবন্ধন">জন্ম ও মৃত্যু নিবন্ধন</a></li>
+							
+				
+				<li class="item_5"><a href="http://xn--d5by7bap7cc3ici3m.xn--54b7fta0cc/" title="উত্তরাধিকার ক্যালকুলেটর">উত্তরাধিকার ক্যালকুলেটর</a></li>
+							
+				
+				<li class="item_6"><a href="http://pcc.police.gov.bd/en/" title="অনলাইন পুলিশ ক্লিয়ারেন্স">অনলাইন পুলিশ ক্লিয়ারেন্স</a></li>
+							
+				
+				<li class="item_7"><a href="http://www.dip.gov.bd/site/page/f2d015a9-1132-4426-8eef-147f1c4bac8a" title="অনলাইনে পাসপোর্টের আবেদন">অনলাইনে পাসপোর্টের আবেদন</a></li>
+							
+				
+				<li class="item_8"><a href="https://services.nidw.gov.bd/" title="জাতীয় পরিচয়পত্রের তথ্য হালনাগাদকরণ">জাতীয় পরিচয়পত্রের তথ্য হালনাগাদকরণ</a></li>
+							
+				
+				<li class="item_9"><a href="http://www.cga.gov.bd/index.php?option=com_wrapper" title="অনলাইন চালান যাচাইকরণ">অনলাইন চালান যাচাইকরণ</a></li>
+							
+				
+				<li class="item_10"><a href="http://www.nbrepayment.gov.bd/" title="অনলাইন আয়কর পরিশোধ">অনলাইন আয়কর পরিশোধ</a></li>
+							
+				
+				<li class="item_11"><a href="http://www.bmet.gov.bd/BMET/onlinaVisaCheckAction" title=" ভিসা যাচাই "> ভিসা যাচাই </a></li>
+								</ul>
+			</div><style>.right-block h5.ces_title {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("/themes/responsive_npf/images/central_e_service.jpg");
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-left: 35px !important;
+	border: 1px solid #ccc;
+	color: #683091;
+	font-weight: bold;
+}</style><script></script><div class="column block">
+	<a target="_blank" title="MOPA ওয়েবমেইল" href = "http://webmail.mopa.gov.bd/">
+		<img src="/themes/responsive_npf/img/moopa_web_bn.jpg" width="230">
+	 </a>	
+</div><style></style><script></script><div class="column block right-block">
+	<h5 class="bk-org des_title">ই-সেবা কেন্দ্র, জেলা প্রশাসন
+	</h5>
+			<ul>
+				
+				<li>
+					<a href="/site/eservices/cc7d07e1-0b0f-4da1-b403-ee3bf7ca0381/নাগরিক-আবেদন">নাগরিক আবেদন</a>				</li>
+			
+				
+				<li>
+					<a href="/site/eservices/06207a69-0164-439b-939e-087baf689adf/নকলের-জন্য-আবেদন">নকলের জন্য আবেদন</a>				</li>
+			
+				
+				<li>
+					<a href="/site/eservices/692eb158-8bd1-4cfa-90d4-edf4e3c08623/সর্বশেষ-অবস্থা-জানুন">সর্বশেষ অবস্থা জানুন</a>				</li>
+			
+					</ul>
+			</div>
+
+<style>.right-block h5.des_title {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("/themes/responsive_npf/images/district_e_service.jpg");
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-left: 35px !important;
+	border: 1px solid #ccc;
+	color: #683091;
+	font-weight: bold;
+}</style><script></script><div class="column block right-block">
+	<h5 class="bk-org other_title">অন্যান্য ই-সেবা
+	</h5>
+				<ul>
+				
+				
+				<li><a href="/site/view/e-directory/ই-ডিরেক্টরী">ই-ডিরেক্টরী</a></li>
+				
+				
+				<li><a href="/site/view/info_officers/তথ্য-প্রদানকারী-কর্মকর্তা">তথ্য প্রদানকারী কর্মকর্তা</a></li>
+				
+				
+				<li><a href="https://www.teachers.gov.bd/">শিক্ষক বাতায়ন </a></li>
+				
+				
+				<li><a href="/site/page/9418fc20-2013-11e7-8f57-286ed488c766/রাজস্ব-বাতায়ন">রাজস্ব বাতায়ন</a></li>
+				
+				
+				<li><a href="http://www.accuweather.com/en/bd/bangladesh-weather/">গোপালগঞ্জের আবহাওয়া(লাইভ)</a></li>
+				
+				
+				<li><a href="//ভূমি-বিষয়ক-অভিযোগ">ভূমি বিষয়ক অভিযোগ</a></li>
+				
+				
+				<li><a href="http://services.portal.gov.bd/site/view/services_pcat/261/ভূমি সংক্রান্ত/">ভূমি সংক্রান্ত পরামর্শ সেবা </a></li>
+				
+				
+				<li><a href="https://www.facebook.com/dcgopalganj/">ফেসবুক পেজ</a></li>
+				
+				
+				<li><a href="http://www.e-service.gov.bd/SIF/login/">সার্ভিস ইনোভেশন ফান্ড</a></li>
+				
+				
+				<li><a href="http://www.lagopalganj.com/">ডিজিটাল ভূমি অধিগ্রহণ কার্যক্রম</a></li>
+				
+				
+				<li><a href="http://www.hsamsdcgopalganj.info/">মাধ্যমিক বিদ্যালয় ভর্তি ব্যবস্থাপনা</a></li>
+					</ul>
+			</div>
+<style>.right-block h5.other_title {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("/themes/responsive_npf/images/other_e_service.jpg");
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-left: 35px !important;
+	border: 1px solid #ccc;
+	color: #683091;
+	font-weight: bold;
+}</style><script></script><div class="column block right-block">
+	<h5 class="bk-org inno_title"><a title="ইনোভেশন কর্নার" href="/site/view/innovation_corner">ইনোভেশন কর্নার</a></h5>	
+</div>
+<div class="column block right-block">
+		<h5 class="bk-org feed_title"><a title="আপনার মতামত" href="/site/view/portalfeedback">আপনার মতামত</a></h5>	
+</div>
+<div class="column block right-block">
+	<h5 class="bk-org social_title">সামাজিক যোগাযোগ মাধ্যম</h5><br>
+	<a title="" href="https://web.facebook.com/"
+		target="_blank" class="share-buttons"> 
+		<img width="30px" src="/themes/responsive_npf/img/facebook.png" alt=" Facebook ">
+	</a> 
+	<a title="" href="http://www.twitter.com"
+	   target="_blank" class="share-buttons"> 
+		<img width="30px" src="/themes/responsive_npf/img/twitter.png" alt=" Twitter ">
+	</a> 
+	<a title="" href="http://www.youtube.com"
+		 target="_blank" class="share-buttons"> 
+		<img width="30px" src="/themes/responsive_npf/img/youtube.png" alt=" Youtube">
+	</a>
+</div>
+<style>.right-block h5 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-left: 35px !important;
+	border: 1px solid #ccc;
+	color: #683091;
+	font-weight: bold;
+}
+
+.right-block h5.inno_title{
+	    background-image: url("/themes/responsive_npf/images/innovation_corner.jpg");
+}
+.right-block h5.inno_title > a{
+	color: #683091;
+}
+
+.right-block h5.feed_title{
+	    background-image: url("/themes/responsive_npf/images/feedback_portal.jpg");
+}
+.right-block h5.feed_title > a{
+	color: #683091;
+}
+.right-block h5.social_title{
+	    background-image: url("/themes/responsive_npf/images/social_media_corner.jpg");
+		color: #683091 !important;
+}</style><script></script>                            </div>
+                <div class="share sixteen columns">
+            <p>Share with :</p>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/sharer.php?u=http://gopalganj.gov.bd/themes/responsive_npf/templates/ministry/themes/themes.gif/ | গোপালগঞ্জ জেলা | গোপালগঞ্জ জেলা"
+                       title="FB">
+                        <img src="/themes/responsive_npf/img/facebook.png" alt="facebook" width="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/intent/tweet?url=http://gopalganj.gov.bd/themes/responsive_npf/templates/ministry/themes/themes.gif&text= "
+                       title="TW">
+                        <img src="/themes/responsive_npf/img/twitter.png" alt="twitter" width="30px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer-artwork" id="footer-artwork">&nbsp;</div>
+<div class="footer-wrapper full-width" id="footer-wrapper">
+    <div id="footer-menu">
+        <ul></ul>                        <div style="float:left; font-size:.9em;">সাইটটি শেষ হাল-নাগাদ করা হয়েছে: <span
+                        style="font-style:italic;">&#x09E8;&#x09E6;&#x09E7;&#x09ED;-&#x09E6;&#x09EF;-&#x09E7;&#x09EA; &#x09E7;&#x09E9;:&#x09E6;&#x09E6;:&#x09EB;&#x09EC;</span></div>
+                </div>
+
+    <div class="footer-credit" id="footer">
+        <p>পরিকল্পনা ও বাস্তবায়নে:&nbsp;<a href="http://www.cabinet.gov.bd/">মন্ত্রিপরিষদ বিভাগ</a>,&nbsp;<a
+                href="http://www.a2i.pmo.gov.bd/">এটুআই</a>,&nbsp;<a href="http://www.doict.gov.bd/">ডিওআইসিটি</a>,&nbsp;<a
+                href="http://www.bcc.net.bd/">বিসিসি</a>&nbsp;ও&nbsp;<a
+                href="http://www.basis.org.bd/">বেসিস</a>।</p>
+
+        <p>কারিগরি সহায়তায়:<a href="http://www.a2i.pmo.gov.bd"><img style="height:34px; vertical-align:middle;"
+                                                                    src="/themes/responsive_npf/img/pmologo.png"
+                                                                    alt=""></a></p>
+    </div>
+
+</div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        var wi = $(window).width();
+        if (wi < 769) {
+            $('#printable_area td').removeAttr('style');
+            $('#printable_area td p').css("width", "100%");
+        }
+
+        $(".slide-panel-button").click(function () {
+            $('#domain-selector-panel').toggle()//animate({height: "toggle"}, 200);
+            if ($('#domain-selector-panel').is(":visible")) {
+                $('#div-lang').css('z-index', '200');
+            } else {
+                $('#div-lang').css('z-index', '1001');
+            }
+            $(".slide-panel-button").toggle();
+        });
+
+        $(".chzn-select").bind('change', function () {
+            if ($(this).val() === "undefined" || $(this).val() !== '-') {
+                window.location.href = $(this).val();
+            }
+        });
+    });
+</script>
+
+
+<script>
+    function fontSize(size) {
+
+        var Size = size;
+        $("#left-content").css({"font-size": Size + "px"});
+        $("#left-content div").css({"font-size": Size + "px"});
+        $("#left-content p").css({"font-size": Size + "px"});
+        $("#left-content a").css({"font-size": Size + "px"});
+        $("#left-content h1").css({"font-size": Size + "px"});
+        $("#left-content h2").css({"font-size": Size + "px"});
+        $("#left-content h3").css({"font-size": Size + "px"});
+        $("#left-content h4").css({"font-size": Size + "px"});
+        $("#left-content h5").css({"font-size": Size + "px"});
+        $("#left-content h6").css({"font-size": Size + "px"});
+        $("#left-content span").css({"font-size": Size + "px"});
+
+    }
+    function fontBgColor(bgColor, fontColor) {
+        var FontColor = fontColor;
+        var BgColor = bgColor;
+        $("#left-content").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content div").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content a").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content p").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content span").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h1").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h2").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h3").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h4").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h5").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+        $("#left-content h6").css({"background-color": "#" + BgColor, "color": "#" + FontColor});
+    }
+
+</script>
